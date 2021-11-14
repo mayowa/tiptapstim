@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ws"
+    "serve": "ws",
+		"watch": "tsup --format iife --watch src --watch public/**/*.html",
+		"dev": "pnpm run watch & pnpm run serve"
   },
   "keywords": [],
   "author": "",

@@ -281,12 +281,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
-.border-b {
-  border-bottom-width: 1px;
-}
-.border-b-2 {
-  border-bottom-width: 2px;
-}
 .border-b-8 {
   border-bottom-width: 8px;
 }
@@ -308,10 +302,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
